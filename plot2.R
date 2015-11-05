@@ -18,7 +18,7 @@ power_data <- power_data %>%
 #plot the data
 with(power_data, {
      #initiate a plot 
-     plot(Global_active_power, xaxt="n", type="n", xlab="", ylab="Global Active Power (kilowatts)")
+     plot(Global_active_power, xaxt="n", type="n", xlab="", ylab="Global Active Power (kilowatts)", bg="white")
      #add line to it
      lines(Global_active_power)
      #Add custom x-axis to it
