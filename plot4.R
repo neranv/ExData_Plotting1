@@ -50,7 +50,7 @@ with(power_data, {
     axis(1, at=c(10,1440,2870), labels=c("Thu","Fri","Sat"))
     ##add a legend
     legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), 
-           lty=1, col=c("black","red","blue"), cex=0.6, bty="n")
+           lty=1, col=c("black","red","blue"), cex=0.5, bty="n")
 })
 
 ##Third one
